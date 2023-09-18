@@ -1,0 +1,41 @@
+.aqua{
+  color: #00B7AF;
+}
+.indigo{
+  color: #1D1068;
+}
+.aqua-background{
+  background-color: #00B7AF;
+}
+.indigo-background{
+  background-color: #1D1068;
+}
+  .header-color {
+    background: linear-gradient(to right,  #1D1068, #00B7AF 59%);
+    height: 500px;
+  }
+  .header-background  {
+    background-image: url("/images/header-bg.webp");
+    position: absolute;
+  }
+  .header-background-image  {
+    background-image: url("/images/Rectangle 13.png");
+    position: relative;
+  }
+  .head-content{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 150px ;
+  }
+  @media (max-width: 600px) {
+    .head-content {
+      font-weight: bold;
+      margin-top: 20px;
+      margin-left: 30px ;
+    }
+  }
+  
+.card-height {
+  height: 300px;
+}
+

@@ -74,7 +74,7 @@ export default function index() {
                     <div className='fs-6'>
                         We design, develop, and deliver top-notch digital solutions for you.
                     </div>
-                    <button class="btn aqua-background text-white font-bold mt-3 " type="submit">Schedule a Call
+                    <button class="btn aqua-background text-white font-bold mt-3 " aria-pressed="false" type="submit">Schedule a Call
                         <BsArrowUpRight />
                     </button>
                 </div>
@@ -257,93 +257,6 @@ export default function index() {
                 </div>
             </div>
 
-
-            {/* <Slider ref={(c) => (slider.current = c)}  {...settings} className="w-full flex items-center overflow-hidden ">
-                <div class="card bg-light card-height">
-                    <div>
-                        <img src="/images/mobile-app 1.svg" class="m-3"
-                            alt="Palm Springs Road" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fs-4 fw-semibold ">Web / SaaS Product</h5>
-                        <p class="card-text mt-3">
-                            Our expertise ranges from enterprise applications to user managed B2C & B2B platforms.
-                        </p>
-                    </div>
-                </div><div class="card bg-light card-height">
-                    <div>
-                        <img src="/images/mobile-app 1.svg" class="m-3"
-                            alt="Palm Springs Road" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fs-4 fw-semibold ">Web / SaaS Product</h5>
-                        <p class="card-text mt-3">
-                            Our expertise ranges from enterprise applications to user managed B2C & B2B platforms.
-                        </p>
-                    </div>
-                </div><div class="card bg-light card-height">
-                    <div>
-                        <img src="/images/mobile-app 1.svg" class="m-3"
-                            alt="Palm Springs Road" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fs-4 fw-semibold ">Web / SaaS Product</h5>
-                        <p class="card-text mt-3">
-                            Our expertise ranges from enterprise applications to user managed B2C & B2B platforms.
-                        </p>
-                    </div>
-                </div><div class="card bg-light card-height">
-                    <div>
-                        <img src="/images/mobile-app 1.svg" class="m-3"
-                            alt="Palm Springs Road" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fs-4 fw-semibold ">Web / SaaS Product</h5>
-                        <p class="card-text mt-3">
-                            Our expertise ranges from enterprise applications to user managed B2C & B2B platforms.
-                        </p>
-                    </div>
-                </div>
-            </Slider> */}
-
-            {/* <div class="container">
-                <h1>Bootstrap 4 Vertical Nav Tabs</h1>
-                <hr />
-                <div class="row">
-                    <div class="col-md-2 mb-3">
-                        <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-10">
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2>Home</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem blanditiis voluptates vel ipsam? Facilis, earum!</p>
-                            </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <h2>Profile</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem blanditiis voluptates vel ipsam? Facilis, earum!</p>
-                            </div>
-                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                <h2>Contact</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet earum. Sed accusantium eligendi molestiae quo hic velit nobis et, tempora placeat ratione rem blanditiis voluptates vel ipsam? Facilis, earum!</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> */}
             <section className='container'>
                 <div className='indigo fs-2 fw-bold'>
                     Featured Projects
@@ -390,13 +303,9 @@ export default function index() {
                     </div>
                 </div>
 
-                <div className='d-flex justify-content-center  '>
-                    <button href="#" class="btn indigo-background text-white">Our Culture <BsArrowUpRight /></button>
-                    <button class="btn aqua-background text-white font-bold mt-3 " type="submit">Schedule a Call
-                        <BsArrowUpRight />
-                    </button>
-                </div>
             </section>
+
+
 
 
 
